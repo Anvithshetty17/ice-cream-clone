@@ -5,7 +5,7 @@ import { FaShoppingBag, FaBars } from 'react-icons/fa';
 const Header = () => {
     return (
         <header className="header">
-            {/* Updated Logo to use the actual SVG */}
+         
             <a href="/" className="logo" aria-label="Mr. Pops">
                 <img src="/logo.png" alt="" />
             </a>
