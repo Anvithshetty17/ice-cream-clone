@@ -1,5 +1,5 @@
 import React from 'react';
-import './logo.css'; // Assuming you have a CSS file for styles
+import './logo.css';
 
 const Logo = () => {
 
@@ -14,7 +14,7 @@ const Logo = () => {
         xmlns="http://www.w3.org/2000/svg"
         fill="white"
         style={{
-          width: '1050', // 🔼 Increased size here
+          width: '1050',
           height: 'auto',
             
           
