@@ -1,6 +1,6 @@
 .parallax-container {
 
-  margin-top: -170px; /* Push content below fixed header */
+  margin-top: -170px; 
   
   background-image: url('/homeimg.png');
   background-size: cover;
