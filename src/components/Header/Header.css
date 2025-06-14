@@ -19,7 +19,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 25px;
-  background-color: transparent; /* transparent header */
+  background-color: transparent;
   z-index: 1000;
 }
 
@@ -33,10 +33,9 @@ body {
   font-weight:800;
 }
 .logo img {
-  width: 100%;     /* Make image fill the `.logo` container width */
-  height: 130px;    /* Maintain aspect ratio */
-  display: block;  /* Remove any inline gap */
-}
+  width: 100%;   
+  height: 130px;   
+  display: block; 
 
 .logo .mr {
   text-decoration: underline;
@@ -49,13 +48,13 @@ body {
   font-size: 38px;
 }
 
-/* Right nav section */
+
 .nav-right {
   display: flex;
   gap: 12px;
 }
 
-/* General nav-item hover */
+
 .nav-item {
   position: relative;
   display: flex;
@@ -87,7 +86,7 @@ body {
 
 
 
-/* Cart button special */
+
 .cart {
   display: flex;
   padding: 0;
@@ -116,14 +115,14 @@ body {
   margin-left: 18px;
   
 }
-/* Flavours button hover */
+
 .nav-item:nth-child(2):hover,.nav-item:nth-child(3):hover {
   color: white;
   background-color: #c11430;
   box-shadow: none;
 }
 
-/* Disable background animation for Flavours (if you don’t want the ::before) */
+
 .nav-item:nth-child(2)::before,.nav-item:nth-child(3)::before {
   display: none;
 }
