@@ -1,0 +1,14 @@
+.parallax-container {
+
+  margin-top: -170px; /* Push content below fixed header */
+  
+  background-image: url('/homeimg.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+padding-top: 10%;
+
+  justify-content: center;
+  align-items: center;
+}
